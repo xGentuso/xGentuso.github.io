@@ -1,37 +1,90 @@
-
-/* FILEPATH: /Users/mota/Documents/xGentuso.github.io/css/app.css */
-
-/* Reset default styles */
-body, h1, p {
+/* Resetting default browser styles */
+body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    color: white;
 }
 
-
-/* Center content on the page */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Style headings */
-h1 {
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    margin-bottom: 16px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    border: 1px solid black; /* Add border */
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Style paragraphs */
-p {
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    margin-bottom: 8px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border: 1px solid black; /* Add border */
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #555;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #777;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+section ul li h3 {
+    margin-bottom: 5px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Links styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
