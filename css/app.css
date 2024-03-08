@@ -1,38 +1,4 @@
-/* FILEPATH: /Users/mota/Documents/xGentuso.github.io/css/app.css */
 
-/* Reset default styles */
-body, h1, p {
-  margin: 0;
-  padding: 0;
-}
-
-/* Set a background color */
-body {
-  background-color: #ffffff;
-}
-
-/* Center content on the page */
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-/* Style headings */
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-  margin-bottom: 16px;
-}
-
-/* Style paragraphs */
-p {
-  font-size: 16px;
-  color: white;
-  margin-bottom: 8px;
-}
 /* FILEPATH: /Users/mota/Documents/xGentuso.github.io/css/app.css */
 
 /* Reset default styles */
@@ -42,10 +8,6 @@ body, h1, p {
   color: white;
 }
 
-/* Set a background color */
-body {
-  background-color: #333;
-}
 
 /* Center content on the page */
 .container {
